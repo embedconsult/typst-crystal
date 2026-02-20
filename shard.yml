@@ -1,0 +1,23 @@
+name: typst
+version: 0.1.0
+
+description: |
+  Staged Crystal migration of Typst with a distributable typst executable.
+
+license: Apache-2.0
+
+authors:
+  - Typst Authors
+  - typst-crystal maintainers
+
+crystal: ">= 1.9.0"
+
+targets:
+  typst:
+    main: src/typst.cr
+
+executables:
+  - typst
+
+scripts:
+  postinstall: scripts/postinstall.sh
