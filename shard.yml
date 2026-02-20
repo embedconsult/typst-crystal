@@ -1,5 +1,5 @@
 name: typst
-version: 0.1.0-20260220
+version: 0.14.2-20260220
 
 description: |
   Staged Crystal migration of Typst with a distributable typst executable.
